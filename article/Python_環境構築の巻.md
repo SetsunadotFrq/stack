@@ -1,8 +1,3 @@
----
-title:Python 環境構築の巻
-desc:Pythonの環境構築のまとめ
----
-
 # Python 環境構築の巻
 ## 目次(やること)
 Pythonをインストールする  

@@ -32,11 +32,11 @@ Python 3.13.13
 
 バージョンが表示されずただPythonと表示される場合やエラーが出る場合は、一度再起動してみるか、再度インストールを行ってください
 
-```powershell
+```
 Python
 ```
 
-```powershell
+```
 'python' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチファイルとして認識されていません。
 ```
 
@@ -66,7 +66,7 @@ python -m venv (任意の名前)
 
 作成例：
 
-```powershell
+```
 python -m venv .venv
 ```
 
@@ -75,19 +75,19 @@ python -m venv .venv
 
 作成ができたら、フォルダができていることを確認して、以下のコマンドを実行する。
 
-```powershell
+```
 .\(任意の名前)\Scripts\activate
 ```
 
 切り替えができると、以下のようにPowerShellの表示に仮想環境名がつく。
 
-```powershell
+```
 >(任意の名前) :
 ```
 
 仮想環境を終了するにはdeactivateを入力
 
-```powershell
+```
 
 deactivate
 ```
@@ -137,3 +137,5 @@ pip install -r requirements.txt
 [VScode環境構築（Windows10、Python、C++、C、Git）](https://qiita.com/Kotabrog/items/89abdb6753e99d5f57e0)  
 [初心者で Python を使いたい人で環境構築に困った場合メモ](https://qiita.com/ryosukeImai/items/f9db7e4ae3433bcfc70c)  
 [Pythonエンジニアへの第一歩：環境構築の手引き](https://note.com/airily_inc/n/nac4d04c62991)
+
+[戻る](../index.md)
